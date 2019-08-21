@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "VerifyCode-Dynamic"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.7"
   spec.summary      = "VerifyCode-Dynamic for components"
   spec.description  = <<-DESC
                       VerifyCode-Dynamic  for components
@@ -17,11 +17,11 @@ Pod::Spec.new do |spec|
   spec.source_files = 'VerifyCode-Dynamic/Products/VerifyCode_Dynamic.framework'
   spec.dependency   'VerifyCode'
 
-  #spec.default_subspec = 'zip'
-  #spec.subspec 'zip' do |zip|
-      #puts '-------------------------------------------------------------------'
-      #puts 'Notice: VerifyCode-Dynamic is zip now'
-    #  puts '-------------------------------------------------------------------'
-  #    zip.ios.vendored_frameworks = '*.framework'
-#  end
+  spec.default_subspec = 'zip'
+  spec.subspec 'zip' do |zip|
+      puts '-------------------------------------------------------------------'
+      puts 'Notice: VerifyCode-Dynamic is zip now'
+      puts '-------------------------------------------------------------------'
+      zip.ios.vendored_frameworks = '*.framework'
+  end
 end

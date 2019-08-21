@@ -7,13 +7,12 @@ Pod::Spec.new do |spec|
                       VerifyCode-Dynamic  for components
                       DESC
   spec.homepage     = "https://github.com/bbrichard/VerifyCode-Dynamic"
-  spec.license      = "MIT (example)"
-  spec.license      = "MIT"
+  spec.license      = "MIT. Copyright (c) 2019年 BB. All rights reserved."
   spec.author       = { "Richard" => "Richard@seektopser.com" }
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/VerifyCode-Dynamic/0.0.1/Products/VerifyCode_Dynamic.framework.zip' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/VerifyCode-Dynamic/master/Products/VerifyCode_Dynamic.framework.zip' }
 
   spec.default_subspec = 'zip'
   spec.subspec 'zip' do |zip|

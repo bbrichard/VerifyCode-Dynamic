@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   #spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/VerifyCode-Dynamic/master/Products/VerifyCode_Dynamic.framework.zip' }
   spec.source   = { :git => 'https://github.com/bbrichard/VerifyCode-Dynamic.git', :tag => spec.version }
-  spec.source_files = 'Products/VerifyCode_Dynamic.framework'
+  spec.source_files = 'VerifyCode-Dynamic/Products/VerifyCode_Dynamic.framework'
   spec.dependency   'VerifyCode'
 
   #spec.default_subspec = 'zip'

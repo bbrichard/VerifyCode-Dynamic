@@ -1,0 +1,6 @@
+framework module Pods_VerifyCode_Dynamic {
+  umbrella header "Pods-VerifyCode-Dynamic-umbrella.h"
+
+  export *
+  module * { export * }
+}

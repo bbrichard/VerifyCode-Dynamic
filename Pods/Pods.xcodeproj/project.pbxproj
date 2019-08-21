@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		88F31A6565275464A76A8B9571130D9B /* VerifyCode */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F8096AE08751A8566CF9FDBAC9D66BC /* Build configuration list for PBXAggregateTarget "VerifyCode" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = VerifyCode;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8FA4154F4C1D6821C55D0FEAA3741E4C /* Pods-VerifyCode-Dynamic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA12B86CD11B5C30D7DC161C759B1E /* Pods-VerifyCode-Dynamic-dummy.m */; };
+		E12D0B3BD0383FFBE7F8E79665A93E0B /* Pods-VerifyCode-Dynamic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B46D32249BBEDA35C6830ECA6FC369E4 /* Pods-VerifyCode-Dynamic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA84C330EDDB6DCD0DCD8CF11FAD97ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1608215079343EB78B800DE2680AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F31A6565275464A76A8B9571130D9B;
+			remoteInfo = VerifyCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ACA12B86CD11B5C30D7DC161C759B1E /* Pods-VerifyCode-Dynamic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VerifyCode-Dynamic-dummy.m"; sourceTree = "<group>"; };
+		3D881F817C51A8B608CDA9A28BF1FE91 /* Pods-VerifyCode-Dynamic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VerifyCode-Dynamic-resources.sh"; sourceTree = "<group>"; };
+		52BF18D381F73E36D1C8C26F84CE4808 /* Pods-VerifyCode-Dynamic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VerifyCode-Dynamic-acknowledgements.plist"; sourceTree = "<group>"; };
+		57D9959417EE166681330101434888FF /* Pods-VerifyCode-Dynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VerifyCode-Dynamic.release.xcconfig"; sourceTree = "<group>"; };
+		62CA385AA2F8F17F3773E305D36B516C /* Pods-VerifyCode-Dynamic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VerifyCode-Dynamic-Info.plist"; sourceTree = "<group>"; };
+		6B944D244443BD91EBFB9252E8B55D24 /* Pods_VerifyCode_Dynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VerifyCode_Dynamic.framework; path = "Pods-VerifyCode-Dynamic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD936D236C45DA7BF504D626554FEC2 /* Pods-VerifyCode-Dynamic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VerifyCode-Dynamic.modulemap"; sourceTree = "<group>"; };
+		8DBA6147439E7C3D754419A1676FBEE6 /* NTESVerifyCodeResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NTESVerifyCodeResources.bundle; path = Resources/NTESVerifyCodeResources.bundle; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B46D32249BBEDA35C6830ECA6FC369E4 /* Pods-VerifyCode-Dynamic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VerifyCode-Dynamic-umbrella.h"; sourceTree = "<group>"; };
+		C95A8D193D142BCADAD2D80C359EC27B /* VerifyCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VerifyCode.xcconfig; sourceTree = "<group>"; };
+		CE800AECD1BA6958DDDF27EEE8C8F21A /* Pods-VerifyCode-Dynamic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VerifyCode-Dynamic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D13C8C337A6CE9EAD398632C73E1526E /* Pods-VerifyCode-Dynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VerifyCode-Dynamic.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4EB3C49AA54A9D30E97B92DCEF6E24 /* VerifyCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VerifyCode.framework; path = Release/VerifyCode_iOS_3.1.3/VerifyCode.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40306EC22785772CFC08E2B641892EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA84C330EDDB6DCD0DCD8CF11FAD97ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF9C074B4074A683B922AF8617FA679 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40C2E5C94286403FEA0C34AE1B1D18B4 /* VerifyCode */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D188F238BA57AB46ABB18F91B4EDE77 /* Pods-VerifyCode-Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				7BD936D236C45DA7BF504D626554FEC2 /* Pods-VerifyCode-Dynamic.modulemap */,
+				CE800AECD1BA6958DDDF27EEE8C8F21A /* Pods-VerifyCode-Dynamic-acknowledgements.markdown */,
+				52BF18D381F73E36D1C8C26F84CE4808 /* Pods-VerifyCode-Dynamic-acknowledgements.plist */,
+				3ACA12B86CD11B5C30D7DC161C759B1E /* Pods-VerifyCode-Dynamic-dummy.m */,
+				62CA385AA2F8F17F3773E305D36B516C /* Pods-VerifyCode-Dynamic-Info.plist */,
+				3D881F817C51A8B608CDA9A28BF1FE91 /* Pods-VerifyCode-Dynamic-resources.sh */,
+				B46D32249BBEDA35C6830ECA6FC369E4 /* Pods-VerifyCode-Dynamic-umbrella.h */,
+				D13C8C337A6CE9EAD398632C73E1526E /* Pods-VerifyCode-Dynamic.debug.xcconfig */,
+				57D9959417EE166681330101434888FF /* Pods-VerifyCode-Dynamic.release.xcconfig */,
+			);
+			name = "Pods-VerifyCode-Dynamic";
+			path = "Target Support Files/Pods-VerifyCode-Dynamic";
+			sourceTree = "<group>";
+		};
+		40C2E5C94286403FEA0C34AE1B1D18B4 /* VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				F2096C48882CE64EAC86D3AEE7187579 /* Frameworks */,
+				D6B13A89205218A4E636E085FF3756A7 /* Resources */,
+				79348D6E89CDE6A073D7511C1AEA4BA8 /* Support Files */,
+			);
+			name = VerifyCode;
+			path = VerifyCode;
+			sourceTree = "<group>";
+		};
+		68A0D61AE212966BD726E80B62ACE336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B944D244443BD91EBFB9252E8B55D24 /* Pods_VerifyCode_Dynamic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79348D6E89CDE6A073D7511C1AEA4BA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95A8D193D142BCADAD2D80C359EC27B /* VerifyCode.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VerifyCode";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2AF9C074B4074A683B922AF8617FA679 /* Pods */,
+				68A0D61AE212966BD726E80B62ACE336 /* Products */,
+				DF77B5140AB5265E7885A5AB9BE70A5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B13A89205218A4E636E085FF3756A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA6147439E7C3D754419A1676FBEE6 /* NTESVerifyCodeResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF77B5140AB5265E7885A5AB9BE70A5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D188F238BA57AB46ABB18F91B4EDE77 /* Pods-VerifyCode-Dynamic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2096C48882CE64EAC86D3AEE7187579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EB3C49AA54A9D30E97B92DCEF6E24 /* VerifyCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BCEE9155F3DBA949D7C5B23DEE05F37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D0B3BD0383FFBE7F8E79665A93E0B /* Pods-VerifyCode-Dynamic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F21CC5E87723A9F55D03D39A8705D17D /* Pods-VerifyCode-Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BDDEEB68CE25925EB2C02E147D4390 /* Build configuration list for PBXNativeTarget "Pods-VerifyCode-Dynamic" */;
+			buildPhases = (
+				3BCEE9155F3DBA949D7C5B23DEE05F37 /* Headers */,
+				4A8C63CAF1E809647068CDD1514E8FE9 /* Sources */,
+				40306EC22785772CFC08E2B641892EC5 /* Frameworks */,
+				29742E9CBD593959391BBAFCC899CD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87D469D920540FF1A08A753FB5CC05A /* PBXTargetDependency */,
+			);
+			name = "Pods-VerifyCode-Dynamic";
+			productName = "Pods-VerifyCode-Dynamic";
+			productReference = 6B944D244443BD91EBFB9252E8B55D24 /* Pods_VerifyCode_Dynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 68A0D61AE212966BD726E80B62ACE336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21CC5E87723A9F55D03D39A8705D17D /* Pods-VerifyCode-Dynamic */,
+				88F31A6565275464A76A8B9571130D9B /* VerifyCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29742E9CBD593959391BBAFCC899CD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8C63CAF1E809647068CDD1514E8FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA4154F4C1D6821C55D0FEAA3741E4C /* Pods-VerifyCode-Dynamic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D87D469D920540FF1A08A753FB5CC05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VerifyCode;
+			target = 88F31A6565275464A76A8B9571130D9B /* VerifyCode */;
+			targetProxy = 4F1608215079343EB78B800DE2680AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F5950026C4EF84B650AD2431FF6359F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95A8D193D142BCADAD2D80C359EC27B /* VerifyCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E0B727A1A3FA82267EB89C5103AD3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13C8C337A6CE9EAD398632C73E1526E /* Pods-VerifyCode-Dynamic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VerifyCode-Dynamic/Pods-VerifyCode-Dynamic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VerifyCode-Dynamic/Pods-VerifyCode-Dynamic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77CECAFAA68479445C2D6BF3884EC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D9959417EE166681330101434888FF /* Pods-VerifyCode-Dynamic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VerifyCode-Dynamic/Pods-VerifyCode-Dynamic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VerifyCode-Dynamic/Pods-VerifyCode-Dynamic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AC8D23CE9974ED3F32EAFFE5FB92FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95A8D193D142BCADAD2D80C359EC27B /* VerifyCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8096AE08751A8566CF9FDBAC9D66BC /* Build configuration list for PBXAggregateTarget "VerifyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC8D23CE9974ED3F32EAFFE5FB92FE8 /* Debug */,
+				1F5950026C4EF84B650AD2431FF6359F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BDDEEB68CE25925EB2C02E147D4390 /* Build configuration list for PBXNativeTarget "Pods-VerifyCode-Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0B727A1A3FA82267EB89C5103AD3A6 /* Debug */,
+				77CECAFAA68479445C2D6BF3884EC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

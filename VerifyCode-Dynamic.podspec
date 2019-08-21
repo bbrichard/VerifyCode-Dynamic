@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "VerifyCode-Dynamic"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "VerifyCode-Dynamic for components"
   spec.description  = <<-DESC
                       VerifyCode-Dynamic  for components
@@ -12,14 +12,16 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/VerifyCode-Dynamic/master/Products/VerifyCode_Dynamic.framework.zip' }
+  #spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/VerifyCode-Dynamic/master/Products/VerifyCode_Dynamic.framework.zip' }
+  spec.source   = { :git => 'https://github.com/bbrichard/VerifyCode-Dynamic.git', :tag => spec.version }
+  spec.source_files = 'Products/VerifyCode_Dynamic.framework'
   spec.dependency   'VerifyCode'
 
-  spec.default_subspec = 'zip'
-  spec.subspec 'zip' do |zip|
-      puts '-------------------------------------------------------------------'
-      puts 'Notice: VerifyCode-Dynamic is zip now'
-      puts '-------------------------------------------------------------------'
-      zip.ios.vendored_frameworks = '*.framework'
-  end
+  #spec.default_subspec = 'zip'
+  #spec.subspec 'zip' do |zip|
+      #puts '-------------------------------------------------------------------'
+      #puts 'Notice: VerifyCode-Dynamic is zip now'
+    #  puts '-------------------------------------------------------------------'
+  #    zip.ios.vendored_frameworks = '*.framework'
+#  end
 end

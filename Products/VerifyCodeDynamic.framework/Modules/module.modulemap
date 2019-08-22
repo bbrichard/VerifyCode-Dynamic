@@ -1,6 +1,0 @@
-framework module VerifyCodeDynamic {
-  umbrella header "VerifyCodeDynamic.h"
-
-  export *
-  module * { export * }
-}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,13 @@
 		79D3524A230C1242009320B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D35249230C1241009320B1 /* SystemConfiguration.framework */; };
 		79D3524C230C1248009320B1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3524B230C1248009320B1 /* JavaScriptCore.framework */; };
 		79D3524E230C1251009320B1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3524D230C1251009320B1 /* WebKit.framework */; };
+		79E05625230EB58F0013A551 /* NTESVerifyCodeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79E05621230EB56A0013A551 /* NTESVerifyCodeResources.bundle */; };
+		79E05654230EB6640013A551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E05653230EB6640013A551 /* UIKit.framework */; };
+		79E05655230EB6C20013A551 /* VerifyCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E05622230EB56B0013A551 /* VerifyCode.framework */; };
+		79E05657230EB7080013A551 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E05656230EB7080013A551 /* CoreGraphics.framework */; };
+		79E05659230EB7220013A551 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E05658230EB7220013A551 /* CoreImage.framework */; };
+		79E0565B230EB7CB0013A551 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E0565A230EB7CB0013A551 /* QuartzCore.framework */; };
+		79E0565D230EB83D0013A551 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E0565C230EB83D0013A551 /* ImageIO.framework */; };
 		9ADCA3E15E8D35A5D0279602 /* Pods_VerifyCode_Dynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD66E0BF47F04B091EE384B /* Pods_VerifyCode_Dynamic.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +28,13 @@
 		79D35249230C1241009320B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		79D3524B230C1248009320B1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		79D3524D230C1251009320B1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		79E05621230EB56A0013A551 /* NTESVerifyCodeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NTESVerifyCodeResources.bundle; sourceTree = "<group>"; };
+		79E05622230EB56B0013A551 /* VerifyCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VerifyCode.framework; sourceTree = "<group>"; };
+		79E05653230EB6640013A551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79E05656230EB7080013A551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79E05658230EB7220013A551 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		79E0565A230EB7CB0013A551 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79E0565C230EB83D0013A551 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		835F864129CA7233318B2207 /* Pods-VerifyCode-Dynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyCode-Dynamic.debug.xcconfig"; path = "Target Support Files/Pods-VerifyCode-Dynamic/Pods-VerifyCode-Dynamic.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB1CB8780DCE7D108913C3E /* Pods-VerifyCode-Dynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyCode-Dynamic.release.xcconfig"; path = "Target Support Files/Pods-VerifyCode-Dynamic/Pods-VerifyCode-Dynamic.release.xcconfig"; sourceTree = "<group>"; };
 		EAD66E0BF47F04B091EE384B /* Pods_VerifyCode_Dynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerifyCode_Dynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +45,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E0565D230EB83D0013A551 /* ImageIO.framework in Frameworks */,
+				79E05657230EB7080013A551 /* CoreGraphics.framework in Frameworks */,
+				79E0565B230EB7CB0013A551 /* QuartzCore.framework in Frameworks */,
+				79E05659230EB7220013A551 /* CoreImage.framework in Frameworks */,
+				79E05655230EB6C20013A551 /* VerifyCode.framework in Frameworks */,
+				79E05654230EB6640013A551 /* UIKit.framework in Frameworks */,
 				79D3524E230C1251009320B1 /* WebKit.framework in Frameworks */,
 				79D3524C230C1248009320B1 /* JavaScriptCore.framework in Frameworks */,
 				79D3524A230C1242009320B1 /* SystemConfiguration.framework in Frameworks */,
@@ -62,6 +82,8 @@
 		79D3523B230C11C5009320B1 /* VerifyCode-Dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				79E05621230EB56A0013A551 /* NTESVerifyCodeResources.bundle */,
+				79E05622230EB56B0013A551 /* VerifyCode.framework */,
 				79D3523C230C11C5009320B1 /* VerifyCode_Dynamic.h */,
 				79D3523D230C11C5009320B1 /* Info.plist */,
 			);
@@ -71,6 +93,11 @@
 		79D35248230C1241009320B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79E0565C230EB83D0013A551 /* ImageIO.framework */,
+				79E0565A230EB7CB0013A551 /* QuartzCore.framework */,
+				79E05658230EB7220013A551 /* CoreImage.framework */,
+				79E05656230EB7080013A551 /* CoreGraphics.framework */,
+				79E05653230EB6640013A551 /* UIKit.framework */,
 				79D3524D230C1251009320B1 /* WebKit.framework */,
 				79D3524B230C1248009320B1 /* JavaScriptCore.framework */,
 				79D35249230C1241009320B1 /* SystemConfiguration.framework */,
@@ -158,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E05625230EB58F0013A551 /* NTESVerifyCodeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +207,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n";
+			shellScript = "
+";
 		};
 		BA74737DE373E852F4A3868B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79D177362327846300B194F8 /* NTESVerifyCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D177352327846300B194F8 /* NTESVerifyCodeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D3523E230C11C5009320B1 /* VerifyCode_Dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D3523C230C11C5009320B1 /* VerifyCode_Dynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D3524A230C1242009320B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D35249230C1241009320B1 /* SystemConfiguration.framework */; };
 		79D3524C230C1248009320B1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D3524B230C1248009320B1 /* JavaScriptCore.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79D177352327846300B194F8 /* NTESVerifyCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NTESVerifyCodeManager.h; path = "VerifyCode-Dynamic/VerifyCode.framework/Headers/NTESVerifyCodeManager.h"; sourceTree = "<group>"; };
 		79D35239230C11C5009320B1 /* VerifyCode_Dynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerifyCode_Dynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D3523C230C11C5009320B1 /* VerifyCode_Dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyCode_Dynamic.h; sourceTree = "<group>"; };
 		79D3523D230C11C5009320B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		79D3522F230C11C5009320B1 = {
 			isa = PBXGroup;
 			children = (
+				79D177352327846300B194F8 /* NTESVerifyCodeManager.h */,
 				79D3523B230C11C5009320B1 /* VerifyCode-Dynamic */,
 				79D3523A230C11C5009320B1 /* Products */,
 				79D35248230C1241009320B1 /* Frameworks */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79D3523E230C11C5009320B1 /* VerifyCode_Dynamic.h in Headers */,
+				79D177362327846300B194F8 /* NTESVerifyCodeManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\nopen \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi\n\n";
 		};
 		BA74737DE373E852F4A3868B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -380,6 +383,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VerifyCode-Dynamic",
@@ -421,6 +425,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VerifyCode-Dynamic",

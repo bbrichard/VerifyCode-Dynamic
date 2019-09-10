@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <VerifyCode/NTESVerifyCodeManager.h>
+//#import <VerifyCode/NTESVerifyCodeManager.h>
 
 //! Project version number for VerifyCode_Dynamic.
 FOUNDATION_EXPORT double VerifyCode_DynamicVersionNumber;

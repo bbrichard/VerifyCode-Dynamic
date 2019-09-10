@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "VerifyCode-Dynamic"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.5"
   spec.summary      = "VerifyCode-Dynamic for components"
   spec.description  = <<-DESC
                       VerifyCode-Dynamic  for components
